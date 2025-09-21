@@ -1,24 +1,56 @@
 body {
-  background-color: #fff;
-  font-family: Arial, sans-serif;
-  text-align: center;
   margin: 0;
   padding: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .logo {
   width: 400px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.message {
-  width: 80%;
-  margin: 20px auto;
-  font-size: 18px;
-  line-height: 1.6;
+/* Nút điều hướng */
+.nav {
+  margin-bottom: 10px;
 }
 
 .nav img {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+/* Thumbnail */
+.thumbnails {
+  margin-bottom: 20px;
+}
+
+.thumbnails img {
   width: 60px;
-  margin: 10px;
+  height: 60px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.thumbnails img:hover {
+  border-color: #666;
+}
+
+/* Ảnh lớn */
+.main-slide img {
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
